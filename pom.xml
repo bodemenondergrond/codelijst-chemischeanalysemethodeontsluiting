@@ -8,11 +8,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>be.vlaanderen.bodemenondergrond.data.id.graph</groupId> <!-- e.g. be.vlaanderen.bodemenondergrond.data.id.graph -->
-  <artifactId>codelijst-chemischeanalysemethodeontsluitingen</artifactId> <!-- e.g. codelijst-testrepo -->
-  <version>0.1.1-SNAPSHOT</version> <!-- 0.1.0-SNAPSHOT -->
+  <artifactId>codelijst-chemischeanalysemethodeontsluiting</artifactId> <!-- e.g. codelijst-testrepo -->
+  <version>0.1.0-SNAPSHOT</version> <!-- 0.1.0-SNAPSHOT -->
   <packaging>jar</packaging>
 
-  <name>codelijst-chemischeanalysemethodeontsluitingen</name> <!-- e.g. codelijst-testrepo -->
+  <name>codelijst-chemischeanalysemethodeontsluiting</name> <!-- e.g. codelijst-testrepo -->
 
 
   <scm>

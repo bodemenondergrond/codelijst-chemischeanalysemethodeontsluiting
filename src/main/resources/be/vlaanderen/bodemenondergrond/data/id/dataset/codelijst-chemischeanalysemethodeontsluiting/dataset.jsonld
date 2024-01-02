@@ -1,0 +1,458 @@
+{
+    "@graph": [
+        {
+            "@id": "omg_distribution:codelijst-chemischeanalysemethodeontsluitingen.0.1.0.chemischeanalysemethodeontsluitingen_xsd",
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst chemischeanalysemethodeontsluitingen, in xml xsd-formaat."
+            },
+            "@type": "dcat:Distribution",
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst chemischeanalysemethodeontsluitingen, geserialiseerd in een xsd bestand met een enumeratie."
+            },
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-chemischeanalysemethodeontsluitingen.0.1.0.chemischeanalysemethodeontsluitingen_xsd",
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcterms:issued": {
+                "@value": "2024-01-02",
+                "@type": "xsd:date"
+            },
+            "dcterms:format": {
+                "@id": "file_type:XSD"
+            },
+            "foaf:page": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-chemischeanalysemethodeontsluitingen.0.1.0.chemischeanalysemethodeontsluitingen_xsd.html"
+            },
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/application/xml"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-chemischeanalysemethodeontsluitingen.0.1.0.chemischeanalysemethodeontsluitingen_xsd"
+            },
+            "dcat:accessURL": {
+                "@id": "https://github.com/bodemenondergrond/codelijst-chemischeanalysemethodeontsluitingen.git"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst chemischeanalysemethodeontsluitingen in xml/xsd formaat."
+            },
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            },
+            "dcat:downloadURL": {
+                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-chemischeanalysemethodeontsluitingen.0.1.0.chemischeanalysemethodeontsluitingen.xsd"
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            }
+        },
+        {
+            "@id": "omg_id:package/be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-chemischeanalysemethodeontsluiting.0.1.0",
+            "spdx:packageFileName": "codelijst-chemischeanalysemethodeontsluiting-0.1.0.jar",
+            "spdx:downloadLocation": {
+                "@id": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/bodemenondergrond/data/id/graph/codelijst-chemischeanalysemethodeontsluiting/0.1.0/codelijst-chemischeanalysemethodeontsluiting-0.1.0.jar"
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcat:downloadURL": {
+                "@id": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/bodemenondergrond/data/id/graph/codelijst-chemischeanalysemethodeontsluiting/0.1.0/codelijst-chemischeanalysemethodeontsluiting-0.1.0.jar"
+            },
+            "dcterms:format": {
+                "@id": "file_type:JAR"
+            },
+            "@type": [
+                "dcat:Distribution",
+                "spdx:Package"
+            ],
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst chemischeanalysemethodeontsluitingen, Jar maven package."
+            },
+            "dcterms:issued": {
+                "@value": "2024-01-02",
+                "@type": "xsd:date"
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Package codelijst-chemischeanalysemethodeontsluiting"
+            },
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-chemischeanalysemethodeontsluiting.0.1.0",
+            "dcterms:identifier": {
+                "@id": "omg_id:package/be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-chemischeanalysemethodeontsluiting.0.1.0"
+            },
+            "spdx:packageName": "be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-chemischeanalysemethodeontsluiting",
+            "spdx:versionInfo": "0.1.0",
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst chemischeanalysemethodeontsluitingen in jar-formaat."
+            }
+        },
+        {
+            "@id": "omg_distribution:codelijst-chemischeanalysemethodeontsluitingen.0.1.0.chemischeanalysemethodeontsluitingen_csv",
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst chemischeanalysemethodeontsluitingen, in text/csv formaat."
+            },
+            "dcat:accessURL": {
+                "@id": "https://github.com/bodemenondergrond/codelijst-chemischeanalysemethodeontsluitingen.git"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst chemischeanalysemethodeontsluitingen, geserialiseerd in csv tabelformaat."
+            },
+            "@type": "dcat:Distribution",
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst chemischeanalysemethodeontsluitingen in text/csv formaat."
+            },
+            "foaf:page": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-chemischeanalysemethodeontsluitingen.0.1.0.chemischeanalysemethodeontsluitingen_csv.html"
+            },
+            "dcterms:format": {
+                "@id": "file_type:CSV"
+            },
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            },
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-chemischeanalysemethodeontsluitingen.0.1.0.chemischeanalysemethodeontsluitingen_csv",
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/text/csv"
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-chemischeanalysemethodeontsluitingen.0.1.0.chemischeanalysemethodeontsluitingen_csv"
+            },
+            "dcat:downloadURL": {
+                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-chemischeanalysemethodeontsluitingen.0.1.0.chemischeanalysemethodeontsluitingen.csv"
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "dcterms:issued": {
+                "@value": "2024-01-02",
+                "@type": "xsd:date"
+            }
+        },
+        {
+            "@id": "omg_distribution:codelijst-chemischeanalysemethodeontsluitingen.0.1.0.chemischeanalysemethodeontsluitingen_rdf",
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/application/rdf+xml"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst chemischeanalysemethodeontsluitingen, in xml rdf-formaat."
+            },
+            "dcat:accessURL": {
+                "@id": "https://github.com/bodemenondergrond/codelijst-chemischeanalysemethodeontsluitingen.git"
+            },
+            "dcat:downloadURL": {
+                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-chemischeanalysemethodeontsluitingen.0.1.0.chemischeanalysemethodeontsluitingen.rdf"
+            },
+            "@type": "dcat:Distribution",
+            "foaf:page": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-chemischeanalysemethodeontsluitingen.0.1.0.chemischeanalysemethodeontsluitingen_rdf.html"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst chemischeanalysemethodeontsluitingen in xml rdf-formaat."
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-chemischeanalysemethodeontsluitingen.0.1.0.chemischeanalysemethodeontsluitingen_rdf",
+            "dcterms:issued": {
+                "@value": "2024-01-02",
+                "@type": "xsd:date"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst chemischeanalysemethodeontsluitingen, geserialiseerd in rdf/xml bestand."
+            },
+            "dcterms:format": {
+                "@id": "file_type:RDF_XML"
+            },
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-chemischeanalysemethodeontsluitingen.0.1.0.chemischeanalysemethodeontsluitingen_rdf"
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            }
+        },
+        {
+            "@id": "omg_catalog:codelijst",
+            "dcat:dataset": {
+                "@id": "omg_dataset:codelijst-chemischeanalysemethodeontsluitingen"
+            },
+            "@type": "dcat:Catalog"
+        },
+        {
+            "@id": "omg_dataset:codelijst-chemischeanalysemethodeontsluitingen",
+            "dcterms:hasVersion": {
+                "@id": "omg_dataset:codelijst-chemischeanalysemethodeontsluitingen.0.1.0"
+            },
+            "@type": "dcat:Dataset"
+        },
+        {
+            "@id": "omg_distribution:codelijst-chemischeanalysemethodeontsluitingen.0.1.0.chemischeanalysemethodeontsluitingen_ttl",
+            "foaf:page": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-chemischeanalysemethodeontsluitingen.0.1.0.chemischeanalysemethodeontsluitingen_ttl.html"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst chemischeanalysemethodeontsluitingen, in Turtle rdf-formaat."
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst chemischeanalysemethodeontsluitingen, geserialiseerd in Turtle bestand."
+            },
+            "dcat:accessURL": {
+                "@id": "https://github.com/bodemenondergrond/codelijst-chemischeanalysemethodeontsluitingen.git"
+            },
+            "@type": "dcat:Distribution",
+            "dcterms:issued": {
+                "@value": "2024-01-02",
+                "@type": "xsd:date"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-chemischeanalysemethodeontsluitingen.0.1.0.chemischeanalysemethodeontsluitingen_ttl"
+            },
+            "dcterms:format": {
+                "@id": "file_type:RDF_TURTLE"
+            },
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            },
+            "dcat:downloadURL": {
+                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-chemischeanalysemethodeontsluitingen.0.1.0.chemischeanalysemethodeontsluitingen.ttl"
+            },
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/text/turtle"
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-chemischeanalysemethodeontsluitingen.0.1.0.chemischeanalysemethodeontsluitingen_ttl",
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst chemischeanalysemethodeontsluitingen in Turtle rdf-formaat."
+            }
+        },
+        {
+            "@id": "omg_dataset:codelijst-chemischeanalysemethodeontsluitingen.0.1.0",
+            "@type": "dcat:Dataset",
+            "foaf:page": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/dataset/codelijst-chemischeanalysemethodeontsluitingen.0.1.0.html"
+            },
+            "dcat:contactPoint": {
+                "@id": "omg_id:vcard/helpdesk"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Deze dataset bevat een lijst van testconcepten, die gebruikt worden binnen het beleidsdomein bodemenondergrond van de Vlaamse Overheid."
+            },
+            "dcat:distribution": [
+                {
+                    "@id": "omg_distribution:codelijst-chemischeanalysemethodeontsluitingen.0.1.0.chemischeanalysemethodeontsluitingen_jsonld"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-chemischeanalysemethodeontsluitingen.0.1.0.chemischeanalysemethodeontsluitingen_rdf"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-chemischeanalysemethodeontsluitingen.0.1.0.chemischeanalysemethodeontsluitingen_csv"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-chemischeanalysemethodeontsluitingen.0.1.0.chemischeanalysemethodeontsluitingen_ttl"
+                },
+                {
+                    "@id": "omg_id:package/be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-chemischeanalysemethodeontsluitingen.0.1.0"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-chemischeanalysemethodeontsluitingen.0.1.0.chemischeanalysemethodeontsluitingen_xsd"
+                }
+            ],
+            "dcterms:temporal": {
+                "@id": "omg_id:periodoftime/dataset_omg"
+            },
+            "dcat:theme": [
+                {
+                    "@id": "eurovoc:2407"
+                },
+                {
+                    "@id": "datatheme_eu:ENVI"
+                },
+                {
+                    "@id": "datatheme_be:ENVI"
+                },
+                {
+                    "@id": "gemet:10087"
+                }
+            ],
+            "dcterms:isVersionOf": {
+                "@id": "omg_dataset:codelijst-chemischeanalysemethodeontsluitingen"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst chemischeanalysemethodeontsluitingen (0.1.0)"
+            },
+            "dcat:landingPage": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html"
+            },
+            "dcterms:accrualPeriodicity": {
+                "@id": "frequency:IRREG"
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcterms:license": {
+                "@id": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0"
+            },
+            "dcterms:alternative": {
+                "@language": "nl",
+                "@value": "Dataset codelijst chemischeanalysemethodeontsluitingen"
+            },
+            "dcterms:publisher": {
+                "@id": "ovo:OVO003323"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst chemischeanalysemethodeontsluitingen"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_dataset:codelijst-chemischeanalysemethodeontsluitingen.0.1.0"
+            },
+            "dcterms:spatial": [
+                {
+                    "@id": "country:BEL"
+                },
+                {
+                    "@id": "https://www.geonames.org/3337388/flanders"
+                }
+            ],
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.dataset.codelijst-chemischeanalysemethodeontsluitingen.0.1.0",
+            "dc:language": {
+                "@language": "nl",
+                "@value": "nl"
+            },
+            "dcterms:issued": {
+                "@value": "2024-01-02",
+                "@type": "xsd:date"
+            },
+            "dcterms:language": {
+                "@id": "language:NLD"
+            },
+            "owl:versionInfo": "0.1.0",
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "void:rootResource": {
+                "@id": "omg_conceptscheme:chemischeanalysemethodeontsluitingen"
+            }
+        },
+        {
+            "@id": "omg_distribution:codelijst-chemischeanalysemethodeontsluitingen.0.1.0.chemischeanalysemethodeontsluitingen_jsonld",
+            "dcterms:format": {
+                "@id": "file_type:JSON_LD"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-chemischeanalysemethodeontsluitingen.0.1.0.chemischeanalysemethodeontsluitingen_jsonld"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst chemischeanalysemethodeontsluitingen, in jsonld rdf-formaat."
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst chemischeanalysemethodeontsluitingen in jsonld rdf-formaat."
+            },
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-chemischeanalysemethodeontsluitingen.0.1.0.chemischeanalysemethodeontsluitingen_jsonld",
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            },
+            "dcat:accessURL": {
+                "@id": "https://github.com/bodemenondergrond/codelijst-chemischeanalysemethodeontsluitingen.git"
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcat:downloadURL": {
+                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-chemischeanalysemethodeontsluitingen.0.1.0.chemischeanalysemethodeontsluitingen.jsonld"
+            },
+            "@type": "dcat:Distribution",
+            "foaf:page": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-chemischeanalysemethodeontsluitingen.0.1.0.chemischeanalysemethodeontsluitingen_jsonld.html"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst chemischeanalysemethodeontsluitingen, geserialiseerd in een jsonld bestand."
+            },
+            "dcterms:issued": {
+                "@value": "2024-01-02",
+                "@type": "xsd:date"
+            },
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/application/ld+json"
+            }
+        }
+    ],
+    "@context": {
+        "country": "http://publications.europa.eu/resource/authority/country/",
+        "formats": "http://www.w3.org/ns/formats/",
+        "spdx": "http://spdx.org/rdf/terms#",
+        "omg_catalog": "https://data.omgeving.vlaanderen.be/id/catalog/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "ssd": "http://www.w3.org/ns/sparql-service-description#",
+        "omg_graphcollection": "https://data.bodemenondergrond.vlaanderen.be/id/graphcollection/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "datatheme_eu": "http://publications.europa.eu/resource/authority/data-theme/",
+        "eurovoc": "http://eurovoc.europa.eu/",
+        "language": "http://publications.europa.eu/resource/authority/language/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "omg_id": "https://data.bodemenondergrond.vlaanderen.be/id/",
+        "access_right": "http://publications.europa.eu/resource/authority/access-right/",
+        "omg_dataset": "https://data.bodemenondergrond.vlaanderen.be/id/dataset/",
+        "frequency": "http://publications.europa.eu/resource/authority/frequency/",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "omg_collection": "https://data.bodemenondergrond.vlaanderen.be/id/collection/",
+        "omg_periodoftime": "https://data.bodemenondergrond.vlaanderen.be/id/periodoftime/",
+        "file_type": "http://publications.europa.eu/resource/authority/file-type/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "assettype": "http://purl.org/adms/assettype/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "omg_dataservice": "https://data.bodemenondergrond.vlaanderen.be/id/dataservice/",
+        "void": "http://rdfs.org/ns/void#",
+        "adms": "http://www.w3.org/ns/adms#",
+        "gemet": "http://www.eionet.europa.eu/gemet/concept/",
+        "omg_named_graph": "https://data.bodemenondergrond.vlaanderen.be/id/namedgraph/",
+        "omg_vcard": "https://data.bodemenondergrond.vlaanderen.be/id/vcard/",
+        "ovo": "http://data.vlaanderen.be/id/organisatie/",
+        "vcard": "http://www.w3.org/2006/vcard/ns#",
+        "omg_ontology": "https://data.bodemenondergrond.vlaanderen.be/id/ontology/",
+        "omg_graph": "https://data.bodemenondergrond.vlaanderen.be/id/graph/",
+        "omg_distribution": "https://data.bodemenondergrond.vlaanderen.be/id/distribution/",
+        "omg_service": "https://data.bodemenondergrond.vlaanderen.be/id/service/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "datatheme_be": "http://vocab.belgif.be/auth/datatheme/",
+        "omg_conceptscheme": "https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/",
+        "omg_package": "https://data.bodemenondergrond.vlaanderen.be/id/package/",
+        "dc": "http://purl.org/dc/elements/1.1/"
+    }
+}

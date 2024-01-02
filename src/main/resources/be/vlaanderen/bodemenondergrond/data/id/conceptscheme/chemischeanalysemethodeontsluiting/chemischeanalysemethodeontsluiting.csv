@@ -1,0 +1,4 @@
+"uri","type","dc.id","collection","notation","prefLabel","altLabel","broader","broaderTransitive","broadMatch","changeNote","closeMatch","definition","editorialNote","exactMatch","example","hiddenLabel","historyNote","inScheme","mappingRelation","note","related","relatedMatch","scopeNote","semanticRelation","topConceptOf"
+"colt:chemischeanalysemethodeontsluitingen","skos:Collection","chemischeanalysemethodeontsluitingen",,,"Collectie van chemischeanalysemethodeontsluitingen.",,,,,,,,,,,,,"cs","chemischeanalysemethodeontsluiting",,,,,,
+"ct:0","skos:Concept","0","colt:chemischeanalysemethodeontsluitingen",,"Onbekend",,,,,,,,,,,,,"cs:chemischeanalysemethodeontsluiting",,,,,,,"cs:chemischeanalysemethodeontsluiting"
+"ct:1","skos:Concept","1","colt:chemischeanalysemethodeontsluitingen",,"Koningswater",,,,,,,,,,,,,"cs:chemischeanalysemethodeontsluiting",,,,,,,"cs:chemischeanalysemethodeontsluiting"

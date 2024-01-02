@@ -1,0 +1,79 @@
+{
+    "@graph": [
+        {
+            "@id": "colt:chemischeanalysemethodeontsluitingen",
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Collectie van chemischeanalysemethodeontsluitingen."
+            },
+            "skos:member": [
+                {
+                    "@id": "ct:0"
+                },
+                {
+                    "@id": "ct:1"
+                }
+            ],
+            "skos:mappingRelation": {
+                "@id": "file:///tmp/RtmpgkTlop/chemischeanalysemethodeontsluiting"
+            },
+            "skos:inScheme": {
+                "@id": "file:///tmp/RtmpgkTlop/cs"
+            },
+            "dc:identifier": "chemischeanalysemethodeontsluitingen",
+            "@type": "skos:Collection"
+        },
+        {
+            "@id": "ct:0",
+            "skos:topConceptOf": {
+                "@id": "cs:chemischeanalysemethodeontsluiting"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Onbekend"
+            },
+            "skos:inScheme": {
+                "@id": "cs:chemischeanalysemethodeontsluiting"
+            },
+            "dc:identifier": "0",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:1",
+            "skos:topConceptOf": {
+                "@id": "cs:chemischeanalysemethodeontsluiting"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Koningswater"
+            },
+            "skos:inScheme": {
+                "@id": "cs:chemischeanalysemethodeontsluiting"
+            },
+            "dc:identifier": "1",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "cs:chemischeanalysemethodeontsluiting",
+            "skos:hasTopConcept": [
+                {
+                    "@id": "ct:0"
+                },
+                {
+                    "@id": "ct:1"
+                }
+            ]
+        }
+    ],
+    "@context": {
+        "cs": "https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/",
+        "ct": "https://data.bodemenondergrond.vlaanderen.be/id/concept/chemischeanalysemethodeontsluitingen/",
+        "dct": "http://purl.org/dc/terms/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "colt": "https://data.bodemenondergrond.vlaanderen.be/id/collection/chemischeanalysemethodeontsluitingen/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "xkos": "http://rdf-vocabulary.ddialliance.org/xkos#"
+    }
+}

@@ -1,0 +1,32 @@
+@prefix colt: <https://data.bodemenondergrond.vlaanderen.be/id/collection/chemischeanalysemethodeontsluitingen/> .
+@prefix cs:   <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/> .
+@prefix ct:   <https://data.bodemenondergrond.vlaanderen.be/id/concept/chemischeanalysemethodeontsluitingen/> .
+@prefix dc:   <http://purl.org/dc/elements/1.1/> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+colt:chemischeanalysemethodeontsluitingen
+        rdf:type              skos:Collection;
+        dc:identifier         "chemischeanalysemethodeontsluitingen";
+        skos:inScheme         <file:///tmp/RtmpgkTlop/cs>;
+        skos:mappingRelation  <file:///tmp/RtmpgkTlop/chemischeanalysemethodeontsluiting>;
+        skos:member           ct:1 , ct:0;
+        skos:prefLabel        "Collectie van chemischeanalysemethodeontsluitingen."@nl .
+
+ct:0    rdf:type           skos:Concept;
+        dc:identifier      "0";
+        skos:inScheme      cs:chemischeanalysemethodeontsluiting;
+        skos:prefLabel     "Onbekend"@nl;
+        skos:topConceptOf  cs:chemischeanalysemethodeontsluiting .
+
+ct:1    rdf:type           skos:Concept;
+        dc:identifier      "1";
+        skos:inScheme      cs:chemischeanalysemethodeontsluiting;
+        skos:prefLabel     "Koningswater"@nl;
+        skos:topConceptOf  cs:chemischeanalysemethodeontsluiting .
+
+cs:chemischeanalysemethodeontsluiting
+        skos:hasTopConcept  ct:1 , ct:0 .
