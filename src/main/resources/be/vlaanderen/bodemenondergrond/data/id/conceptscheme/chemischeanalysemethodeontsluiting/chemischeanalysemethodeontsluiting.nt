@@ -1,0 +1,23 @@
+<collection:chemischeanalysemethodeontsluitingen> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.collection.chemischeanalysemethodeontsluiting.chemischeanalysemethodeontsluitingen" .
+<collection:chemischeanalysemethodeontsluitingen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Collection> .
+<collection:chemischeanalysemethodeontsluitingen> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/chemischeanalysemethodeontsluiting> .
+<collection:chemischeanalysemethodeontsluitingen> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/chemischeanalysemethodeontsluiting/0> .
+<collection:chemischeanalysemethodeontsluitingen> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/chemischeanalysemethodeontsluiting/1> .
+<collection:chemischeanalysemethodeontsluitingen> <http://www.w3.org/2004/02/skos/core#prefLabel> "Collectie van chemischeanalysemethodeontsluitingen."@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/chemischeanalysemethodeontsluiting/0> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.chemischeanalysemethodeontsluiting.0" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/chemischeanalysemethodeontsluiting/0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/chemischeanalysemethodeontsluiting/0> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/chemischeanalysemethodeontsluiting> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/chemischeanalysemethodeontsluiting/0> <http://www.w3.org/2004/02/skos/core#prefLabel> "Onbekend"@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/chemischeanalysemethodeontsluiting/0> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/chemischeanalysemethodeontsluiting> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/chemischeanalysemethodeontsluiting/1> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.chemischeanalysemethodeontsluiting.1" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/chemischeanalysemethodeontsluiting/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/chemischeanalysemethodeontsluiting/1> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/chemischeanalysemethodeontsluiting> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/chemischeanalysemethodeontsluiting/1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Koningswater"@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/chemischeanalysemethodeontsluiting/1> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/chemischeanalysemethodeontsluiting> .
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/chemischeanalysemethodeontsluiting> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.chemischeanalysemethodeontsluiting" .
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/chemischeanalysemethodeontsluiting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/chemischeanalysemethodeontsluiting> <http://www.w3.org/2004/02/skos/core#definition> "Beschrijving ...."@nl .
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/chemischeanalysemethodeontsluiting> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/chemischeanalysemethodeontsluiting/0> .
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/chemischeanalysemethodeontsluiting> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/chemischeanalysemethodeontsluiting/1> .
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/chemischeanalysemethodeontsluiting> <http://www.w3.org/2004/02/skos/core#note> "Beschrijving ...."@nl .
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/chemischeanalysemethodeontsluiting> <http://www.w3.org/2004/02/skos/core#prefLabel> "Codelijst chemischeanalysemethodeontsluiting."@nl .

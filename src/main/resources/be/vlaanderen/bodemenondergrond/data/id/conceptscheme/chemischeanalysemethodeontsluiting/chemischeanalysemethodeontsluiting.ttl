@@ -1,32 +1,81 @@
-@prefix colt: <https://data.bodemenondergrond.vlaanderen.be/id/collection/chemischeanalysemethodeontsluitingen/> .
-@prefix cs:   <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/> .
-@prefix ct:   <https://data.bodemenondergrond.vlaanderen.be/id/concept/chemischeanalysemethodeontsluitingen/> .
-@prefix dc:   <http://purl.org/dc/elements/1.1/> .
-@prefix dct:  <http://purl.org/dc/terms/> .
-@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
-@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix concept: <https://data.bodemenondergrond.vlaanderen.be/id/concept/chemischeanalysemethodeontsluiting/>.
+@prefix collectie: <https://data.bodemenondergrond.vlaanderen.be/id/collection/chemischeanalysemethodeontsluiting/>.
+@prefix access_right: <http://publications.europa.eu/resource/authority/access-right/>.
+@prefix adms: <http://www.w3.org/ns/adms#>.
+@prefix assettype: <http://purl.org/adms/assettype/>.
+@prefix bodembescherming-gop: <https://emis.vito.be/nl/erkende-laboratoria/bodembescherming-gop/>.
+@prefix conceptscheme: <https://data.omgeving.vlaanderen.be/id/conceptscheme/>.
+@prefix country: <http://publications.europa.eu/resource/authority/country/>.
+@prefix datasets: <https://datasets.omgeving.vlaanderen.be/>.
+@prefix datatheme_be: <http://vocab.belgif.be/auth/datatheme/>.
+@prefix datatheme_eu: <http://publications.europa.eu/resource/authority/data-theme/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix eurovoc: <http://eurovoc.europa.eu/>.
+@prefix file_type: <http://publications.europa.eu/resource/authority/file-type/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix formats: <http://www.w3.org/ns/formats/>.
+@prefix frequency: <http://publications.europa.eu/resource/authority/frequency/>.
+@prefix gemet: <http://www.eionet.europa.eu/gemet/concept/>.
+@prefix licence: <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/>.
+@prefix metadata: <https://data.omgeving.vlaanderen.be/ns/metadata#>.
+@prefix mest-bodem-veevoeder: <https://emis.vito.be/nl/erkende-laboratoria/mest-bodem-en-veevoeder-vlm/>.
+@prefix omg_catalog: <https://data.omgeving.vlaanderen.be/id/catalog/>.
+@prefix omg_catalog_doc: <https://data.omgeving.vlaanderen.be/doc/catalog/>.
+@prefix omg_collection: <https://data.bodemenondergrond.vlaanderen.be/id/collection/>.
+@prefix omg_dataservice: <https://data.bodemenondergrond.vlaanderen.be/id/dataservice/>.
+@prefix omg_dataset_doc: <https://data.bodemenondergrond.vlaanderen.be/doc/dataset/>.
+@prefix omg_dataset: <https://data.bodemenondergrond.vlaanderen.be/id/dataset/>.
+@prefix omg_distribution_doc: <https://data.bodemenondergrond.vlaanderen.be/doc/distribution/>.
+@prefix omg_distribution: <https://data.bodemenondergrond.vlaanderen.be/id/distribution/>.
+@prefix omg_graphcollection: <https://data.bodemenondergrond.vlaanderen.be/id/graphcollection/>.
+@prefix omg_graph: <https://data.bodemenondergrond.vlaanderen.be/id/graph/>.
+@prefix omg_id: <https://data.bodemenondergrond.vlaanderen.be/id/>.
+@prefix omg_named_graph: <https://data.bodemenondergrond.vlaanderen.be/id/namedgraph/>.
+@prefix omg_ontology: <https://data.bodemenondergrond.vlaanderen.be/id/ontology/>.
+@prefix omg_package: <https://data.bodemenondergrond.vlaanderen.be/id/package/>.
+@prefix omg_periodoftime: <https://data.bodemenondergrond.vlaanderen.be/id/periodoftime/>.
+@prefix omg_service: <https://data.bodemenondergrond.vlaanderen.be/id/service/>.
+@prefix omg_vcard: <https://data.bodemenondergrond.vlaanderen.be/id/vcard/>.
+@prefix ovo: <http://data.vlaanderen.be/id/organisatie/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix repo: <https://repo.omgeving.vlaanderen.be/artifactory/release/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix spdx: <http://spdx.org/rdf/terms#>.
+@prefix ssd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix ts: <http://www.w3.org/ns/formats/>.
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+@prefix wise: <http://dd.eionet.europa.eu/vocabulary/wise/ObservedProperty/>.
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix water-gop: <https://emis.vito.be/nl/erkende-laboratoria/water-gop/>.
+@prefix bodem-afvalstoffen-ovam: <https://emis.vito.be/nl/erkende-laboratoria/bodem-en-afvalstoffen-ovam/>.
 
-colt:chemischeanalysemethodeontsluitingen
-        rdf:type              skos:Collection;
-        dc:identifier         "chemischeanalysemethodeontsluitingen";
-        skos:inScheme         <file:///tmp/RtmpgkTlop/cs>;
-        skos:mappingRelation  <file:///tmp/RtmpgkTlop/chemischeanalysemethodeontsluiting>;
-        skos:member           ct:1 , ct:0;
-        skos:prefLabel        "Collectie van chemischeanalysemethodeontsluitingen."@nl .
-
-ct:0    rdf:type           skos:Concept;
-        dc:identifier      "0";
-        skos:inScheme      cs:chemischeanalysemethodeontsluiting;
-        skos:prefLabel     "Onbekend"@nl;
-        skos:topConceptOf  cs:chemischeanalysemethodeontsluiting .
-
-ct:1    rdf:type           skos:Concept;
-        dc:identifier      "1";
-        skos:inScheme      cs:chemischeanalysemethodeontsluiting;
-        skos:prefLabel     "Koningswater"@nl;
-        skos:topConceptOf  cs:chemischeanalysemethodeontsluiting .
-
-cs:chemischeanalysemethodeontsluiting
-        skos:hasTopConcept  ct:1 , ct:0 .
+<collection:chemischeanalysemethodeontsluitingen> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.collection.chemischeanalysemethodeontsluiting.chemischeanalysemethodeontsluitingen";
+    a skos:Collection;
+    skos:inScheme conceptscheme:chemischeanalysemethodeontsluiting;
+    skos:member <https://data.bodemenondergrond.vlaanderen.be/id/concept/chemischeanalysemethodeontsluiting/0>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/chemischeanalysemethodeontsluiting/1>;
+    skos:prefLabel "Collectie van chemischeanalysemethodeontsluitingen."@nl.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/chemischeanalysemethodeontsluiting/0> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.chemischeanalysemethodeontsluiting.0";
+    a skos:Concept;
+    skos:inScheme conceptscheme:chemischeanalysemethodeontsluiting;
+    skos:prefLabel "Onbekend"@nl;
+    skos:topConceptOf conceptscheme:chemischeanalysemethodeontsluiting.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/chemischeanalysemethodeontsluiting/1> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.chemischeanalysemethodeontsluiting.1";
+    a skos:Concept;
+    skos:inScheme conceptscheme:chemischeanalysemethodeontsluiting;
+    skos:prefLabel "Koningswater"@nl;
+    skos:topConceptOf conceptscheme:chemischeanalysemethodeontsluiting.
+conceptscheme:chemischeanalysemethodeontsluiting dc:identifier "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.chemischeanalysemethodeontsluiting";
+    a skos:ConceptScheme;
+    skos:definition "Beschrijving ...."@nl;
+    skos:hasTopConcept <https://data.bodemenondergrond.vlaanderen.be/id/concept/chemischeanalysemethodeontsluiting/0>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/chemischeanalysemethodeontsluiting/1>;
+    skos:note "Beschrijving ...."@nl;
+    skos:prefLabel "Codelijst chemischeanalysemethodeontsluiting."@nl.
