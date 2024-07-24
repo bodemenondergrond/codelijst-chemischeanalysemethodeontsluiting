@@ -18,3 +18,5 @@ buildNumber.properties
 codelijst-chemischeanalysemethodeontsluiting.iml
 temp/
 node_modules/
+src/.env
+src/utils/setenv.js
