@@ -2,8 +2,8 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:be.vlaanderen.bodemenondergrond.data.id.graph:codelijst-chemischeanalysemethodeontsluiting">
   <xs:simpleType name="be.vlaanderen.bodemenondergrond.data.id.conceptscheme.chemischeanalysemethodeontsluiting">
     <xs:restriction base="xs:string">
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/chemischeanalysemethodeontsluiting/0" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/chemischeanalysemethodeontsluiting/1" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/chemischeanalysemethodeontsluiting/koningswater" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/chemischeanalysemethodeontsluiting/onbekend" />
     </xs:restriction>
   </xs:simpleType>
 </xs:schema>

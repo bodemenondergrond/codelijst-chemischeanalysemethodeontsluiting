@@ -391,43 +391,37 @@
     },
     "graph": [
         {
-            "id": "collection:chemischeanalysemethodeontsluitingen",
-            "type": "skos:Collection",
-            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.collection.chemischeanalysemethodeontsluiting.chemischeanalysemethodeontsluitingen",
-            "inScheme": "conceptscheme:chemischeanalysemethodeontsluiting",
-            "member": [
-                "concept:0",
-                "concept:1"
-            ],
-            "prefLabel": "Collectie van chemischeanalysemethodeontsluitingen."
-        },
-        {
-            "id": "concept:0",
+            "id": "concept:koningswater",
             "type": "skos:Concept",
-            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.chemischeanalysemethodeontsluiting.0",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.chemischeanalysemethodeontsluiting.koningswater",
+            "definition": "Koningswater (3:1 mengsel van geconcentreerd zoutzuur en geconcentreerd salpeterzuur) werd gebruikt voor ontsluiting van chemische elementen voorafgaand aan chemische analyse.",
             "inScheme": "conceptscheme:chemischeanalysemethodeontsluiting",
-            "prefLabel": "Onbekend",
+            "notation": "Koningswater",
+            "note": "Koningswater (3:1 mengsel van geconcentreerd zoutzuur en geconcentreerd salpeterzuur) werd gebruikt voor ontsluiting van chemische elementen voorafgaand aan chemische analyse.",
+            "prefLabel": "Koningswater",
             "topConceptOf": "conceptscheme:chemischeanalysemethodeontsluiting"
         },
         {
-            "id": "concept:1",
+            "id": "concept:onbekend",
             "type": "skos:Concept",
-            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.chemischeanalysemethodeontsluiting.1",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.chemischeanalysemethodeontsluiting.onbekend",
+            "definition": "De methode van ontsluiting van chemische elementen voorafgaand aan chemische analyse is onbekend.",
             "inScheme": "conceptscheme:chemischeanalysemethodeontsluiting",
-            "prefLabel": "Koningswater",
+            "notation": "Onbekend",
+            "note": "De methode van ontsluiting van chemische elementen voorafgaand aan chemische analyse is onbekend.",
+            "prefLabel": "Onbekend",
             "topConceptOf": "conceptscheme:chemischeanalysemethodeontsluiting"
         },
         {
             "id": "conceptscheme:chemischeanalysemethodeontsluiting",
             "type": "skos:ConceptScheme",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.chemischeanalysemethodeontsluiting",
-            "definition": "Beschrijving ....",
             "hasTopConcept": [
-                "concept:0",
-                "concept:1"
+                "concept:koningswater",
+                "concept:onbekend"
             ],
-            "note": "Beschrijving ....",
-            "prefLabel": "Codelijst chemischeanalysemethodeontsluiting."
+            "notation": "Codelijst chemischeanalysemethodeontsluiting",
+            "prefLabel": "Codelijst chemischeanalysemethodeontsluiting"
         }
     ]
 }

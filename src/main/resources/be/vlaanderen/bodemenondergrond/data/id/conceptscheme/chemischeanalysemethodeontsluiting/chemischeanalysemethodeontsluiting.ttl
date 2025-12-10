@@ -58,24 +58,24 @@
 @prefix water-gop: <https://emis.vito.be/nl/erkende-laboratoria/water-gop/>.
 @prefix bodem-afvalstoffen-ovam: <https://emis.vito.be/nl/erkende-laboratoria/bodem-en-afvalstoffen-ovam/>.
 
-<collection:chemischeanalysemethodeontsluitingen> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.collection.chemischeanalysemethodeontsluiting.chemischeanalysemethodeontsluitingen";
-    a skos:Collection;
-    skos:inScheme conceptscheme:chemischeanalysemethodeontsluiting;
-    skos:member <https://data.bodemenondergrond.vlaanderen.be/id/concept/chemischeanalysemethodeontsluiting/0>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/chemischeanalysemethodeontsluiting/1>;
-    skos:prefLabel "Collectie van chemischeanalysemethodeontsluitingen."@nl.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/chemischeanalysemethodeontsluiting/0> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.chemischeanalysemethodeontsluiting.0";
+concept:koningswater dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.chemischeanalysemethodeontsluiting.koningswater";
     a skos:Concept;
+    skos:definition "Koningswater (3:1 mengsel van geconcentreerd zoutzuur en geconcentreerd salpeterzuur) werd gebruikt voor ontsluiting van chemische elementen voorafgaand aan chemische analyse."@nl;
     skos:inScheme conceptscheme:chemischeanalysemethodeontsluiting;
-    skos:prefLabel "Onbekend"@nl;
-    skos:topConceptOf conceptscheme:chemischeanalysemethodeontsluiting.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/chemischeanalysemethodeontsluiting/1> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.chemischeanalysemethodeontsluiting.1";
-    a skos:Concept;
-    skos:inScheme conceptscheme:chemischeanalysemethodeontsluiting;
+    skos:notation "Koningswater";
+    skos:note "Koningswater (3:1 mengsel van geconcentreerd zoutzuur en geconcentreerd salpeterzuur) werd gebruikt voor ontsluiting van chemische elementen voorafgaand aan chemische analyse."@nl;
     skos:prefLabel "Koningswater"@nl;
+    skos:topConceptOf conceptscheme:chemischeanalysemethodeontsluiting.
+concept:onbekend dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.chemischeanalysemethodeontsluiting.onbekend";
+    a skos:Concept;
+    skos:definition "De methode van ontsluiting van chemische elementen voorafgaand aan chemische analyse is onbekend."@nl;
+    skos:inScheme conceptscheme:chemischeanalysemethodeontsluiting;
+    skos:notation "Onbekend";
+    skos:note "De methode van ontsluiting van chemische elementen voorafgaand aan chemische analyse is onbekend."@nl;
+    skos:prefLabel "Onbekend"@nl;
     skos:topConceptOf conceptscheme:chemischeanalysemethodeontsluiting.
 conceptscheme:chemischeanalysemethodeontsluiting dc:identifier "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.chemischeanalysemethodeontsluiting";
     a skos:ConceptScheme;
-    skos:definition "Beschrijving ...."@nl;
-    skos:hasTopConcept <https://data.bodemenondergrond.vlaanderen.be/id/concept/chemischeanalysemethodeontsluiting/0>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/chemischeanalysemethodeontsluiting/1>;
-    skos:note "Beschrijving ...."@nl;
-    skos:prefLabel "Codelijst chemischeanalysemethodeontsluiting."@nl.
+    skos:hasTopConcept concept:koningswater, concept:onbekend;
+    skos:notation "Codelijst chemischeanalysemethodeontsluiting";
+    skos:prefLabel "Codelijst chemischeanalysemethodeontsluiting"@nl.

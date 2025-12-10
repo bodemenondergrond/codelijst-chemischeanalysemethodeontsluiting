@@ -16,8 +16,8 @@
 @prefix ons:           <https://data.bodemenondergrond.vlaanderen.be/id/nodeshape/> .
 @prefix schema:        <http://schema.org/> .
 @prefix foaf:          <http://xmlns.com/foaf/0.1/> .
-@prefix dcat:     <http://www.w3.org/ns/dcat#> .
-@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcat:          <http://www.w3.org/ns/dcat#> .
+@prefix dc:            <http://purl.org/dc/elements/1.1/>.
 
 beo_ont:chemischeanalysemethodeontsluiting
     a               owl:Ontology ;
@@ -52,9 +52,9 @@ beo_ag_cl:creator
 # Node Shapes
 ons:schema
     a                sh:NodeShape ;
-    rdfs:label       "conceptschema van matrices"@en ;
-    sh:name          "conceptschema van matrices"@en ;
-    sh:description   "Het schema waarbinnen de matrices gedefinieerd zijn"@en ;
+    rdfs:label       "conceptschema van methodes voor ontsluiting bij chemische analyses"@en ;
+    sh:name          "conceptschema van methodes voor ontsluiting bij chemische analyses"@en ;
+    sh:description   "Het schema waarbinnen de methodes voor ontsluiting bij chemische analyses gedefinieerd zijn"@en ;
     rdfs:isDefinedBy beo_ont:chemischeanalysemethodeontsluiting, beo_voc:chemischeanalysemethodeontsluiting ;
     sh:property      omg_ps:conceptscheme_prefLabel, omg_ps:schema_hasTopConcept, omg_ps:dc_identifier, omg_ps:notation, omg_ps:note,
                      omg_ps:definition, omg_ps:rdf_type;
@@ -67,7 +67,7 @@ ons:collection
     a                sh:NodeShape ;
     rdfs:label       "verzameling"@en ;
     sh:name          "verzameling"@en ;
-    sh:description   "Verzamelingen bundelen matrices met gelijkaardige eigenschappen, analysemethoden of matrices waarin ze gemeten worden."@en ;
+    sh:description   "Verzamelingen bundelen methodes voor ontsluiting bij chemische analyses met gelijkaardige eigenschappen, analysemethoden of matrices waarin ze gemeten worden."@en ;
     rdfs:isDefinedBy beo_ont:chemischeanalysemethodeontsluiting, beo_voc:chemischeanalysemethodeontsluiting ;
     sh:property      omg_ps:prefLabel, omg_ps:collection_member, omg_ps:dc_identifier, omg_ps:notation,
                      omg_ps:inScheme, omg_ps:rdf_type;
@@ -78,9 +78,9 @@ ons:collection
 
 ons:concept
     a                sh:NodeShape ;
-    rdfs:label       "matrix"@en ;
-    sh:name          "matrix"@en ;
-    sh:description   "analysemethodes"@en ;
+    rdfs:label       "methodes voor ontsluiting bij chemische analyses"@en ;
+    sh:name          "methodes voor ontsluiting bij chemische analyses"@en ;
+    sh:description   "methodes voor ontsluiting bij chemische analyses"@en ;
     rdfs:comment     "compendia onderhouden door VITO"@en ;
     rdfs:isDefinedBy beo_ont:chemischeanalysemethodeontsluiting, beo_voc:chemischeanalysemethodeontsluiting ;
     sh:property      omg_ps:notation, omg_ps:inScheme,
@@ -88,8 +88,7 @@ ons:concept
                      omg_ps:prefLabel, omg_ps:theme,
                      omg_ps:topConceptOf, omg_ps:altLabel, omg_ps:dc_identifier,
                      omg_ps:rdf_type, omg_ps:note, omg_ps:broaderTransitive, omg_ps:broader,
-                     omg_ps:narrowerTransitive, omg_ps:narrower, omg_ps:semanticRelation ,
-                     omg_ps:seeAlso;
+                     omg_ps:narrowerTransitive, omg_ps:narrower, omg_ps:semanticRelation;
     sh:closed true ;
     sh:targetClass   skos:Concept .
 
