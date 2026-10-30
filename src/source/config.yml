@@ -130,24 +130,23 @@ prefixes :
   gemet: http://www.eionet.europa.eu/gemet/concept/
   licence: http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/
   metadata: https://data.omgeving.vlaanderen.be/ns/metadata#
-  mest-bodem-veevoeder: https://emis.vito.be/nl/erkende-laboratoria/mest-bodem-en-veevoeder-vlm/
-  omg_catalog: https://data.omgeving.vlaanderen.be/id/catalog/
-  omg_catalog_doc: https://data.omgeving.vlaanderen.be/doc/catalog/
-  omg_collection: https://data.bodemenondergrond.vlaanderen.be/id/collection/
-  omg_dataservice: https://data.bodemenondergrond.vlaanderen.be/id/dataservice/
-  omg_dataset_doc: https://data.bodemenondergrond.vlaanderen.be/doc/dataset/
-  omg_dataset: https://data.bodemenondergrond.vlaanderen.be/id/dataset/
-  omg_distribution_doc: https://data.bodemenondergrond.vlaanderen.be/doc/distribution/
-  omg_distribution: https://data.bodemenondergrond.vlaanderen.be/id/distribution/
-  omg_graphcollection: https://data.bodemenondergrond.vlaanderen.be/id/graphcollection/
-  omg_graph: https://data.bodemenondergrond.vlaanderen.be/id/graph/
-  omg_id: https://data.bodemenondergrond.vlaanderen.be/id/
-  omg_named_graph: https://data.bodemenondergrond.vlaanderen.be/id/namedgraph/
-  omg_ontology: https://data.bodemenondergrond.vlaanderen.be/id/ontology/
-  omg_package: https://data.bodemenondergrond.vlaanderen.be/id/package/
-  omg_periodoftime: https://data.bodemenondergrond.vlaanderen.be/id/periodoftime/
-  omg_service: https://data.bodemenondergrond.vlaanderen.be/id/service/
-  omg_vcard: https://data.bodemenondergrond.vlaanderen.be/id/vcard/
+  beo_catalog: https://data.omgeving.vlaanderen.be/id/catalog/
+  beo_catalog_doc: https://data.omgeving.vlaanderen.be/doc/catalog/
+  beo_collection: https://data.bodemenondergrond.vlaanderen.be/id/collection/
+  beo_dataservice: https://data.bodemenondergrond.vlaanderen.be/id/dataservice/
+  beo_dataset_doc: https://data.bodemenondergrond.vlaanderen.be/doc/dataset/
+  beo_dataset: https://data.bodemenondergrond.vlaanderen.be/id/dataset/
+  beo_distribution_doc: https://data.bodemenondergrond.vlaanderen.be/doc/distribution/
+  beo_distribution: https://data.bodemenondergrond.vlaanderen.be/id/distribution/
+  beo_graphcollection: https://data.bodemenondergrond.vlaanderen.be/id/graphcollection/
+  beo_graph: https://data.bodemenondergrond.vlaanderen.be/id/graph/
+  beo_id: https://data.bodemenondergrond.vlaanderen.be/id/
+  beo_named_graph: https://data.bodemenondergrond.vlaanderen.be/id/namedgraph/
+  beo_ontology: https://data.bodemenondergrond.vlaanderen.be/id/ontology/
+  beo_package: https://data.bodemenondergrond.vlaanderen.be/id/package/
+  beo_periodoftime: https://data.bodemenondergrond.vlaanderen.be/id/periodoftime/
+  beo_service: https://data.bodemenondergrond.vlaanderen.be/id/service/
+  beo_vcard: https://data.bodemenondergrond.vlaanderen.be/id/vcard/
   ovo: http://data.vlaanderen.be/id/organisatie/
   owl: http://www.w3.org/2002/07/owl#
   repo: https://repo.omgeving.vlaanderen.be/artifactory/release/
@@ -163,7 +162,5 @@ prefixes :
   wise: http://dd.eionet.europa.eu/vocabulary/wise/ObservedProperty/
   xkos: http://rdf-vocabulary.ddialliance.org/xkos#
   xsd: http://www.w3.org/2001/XMLSchema#
-  water-gop: https://emis.vito.be/nl/erkende-laboratoria/water-gop/
-  bodem-afvalstoffen-ovam: https://emis.vito.be/nl/erkende-laboratoria/bodem-en-afvalstoffen-ovam/
 deploy:
   virtuoso: virtuoso-bodemenondergrond
